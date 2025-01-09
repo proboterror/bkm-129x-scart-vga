@@ -9,6 +9,174 @@
 		(rev "B")
 	)
 	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x03"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x03_1_1"
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -1600,10 +1768,6 @@
 		(uuid "f10c489e-1500-451d-b6f8-ef0783e7694c")
 	)
 	(no_connect
-		(at 163.83 101.6)
-		(uuid "017e671b-e5fb-4f13-8422-cc8d7018a43c")
-	)
-	(no_connect
 		(at 163.83 86.36)
 		(uuid "0614b6c9-5693-4191-95a2-92d281d8e6df")
 	)
@@ -1614,10 +1778,6 @@
 	(no_connect
 		(at 163.83 93.98)
 		(uuid "1738e48f-8fe3-43e0-ae0d-eddf8040e3dd")
-	)
-	(no_connect
-		(at 163.83 104.14)
-		(uuid "17f8ee41-d640-42b4-9b81-85d8ce553db0")
 	)
 	(no_connect
 		(at 163.83 60.96)
@@ -1806,6 +1966,16 @@
 			(type default)
 		)
 		(uuid "41c529e7-7d39-4a91-bc0a-ed6986a54767")
+	)
+	(wire
+		(pts
+			(xy 166.37 104.14) (xy 163.83 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4214fa5d-7fa8-4a6b-8a1c-8f5357d5ca72")
 	)
 	(wire
 		(pts
@@ -2139,6 +2309,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 101.6) (xy 163.83 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4d984a8-6879-40dd-81e4-14fdb2b12c01")
+	)
+	(wire
+		(pts
 			(xy 191.77 85.09) (xy 196.85 85.09)
 		)
 		(stroke
@@ -2247,6 +2427,28 @@
 			)
 		)
 	)
+	(global_label "MCU_TX"
+		(shape input)
+		(at 214.63 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "496f251d-5969-4edc-b4e0-3bee0e596357")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 205.1024 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "MCU_SCK"
 		(shape input)
 		(at 166.37 71.12 0)
@@ -2267,6 +2469,28 @@
 			)
 		)
 	)
+	(global_label "MCU_RX"
+		(shape input)
+		(at 214.63 111.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7ca11879-8f8d-43c7-8064-bd1525d21846")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 204.8 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "MCU_SLOT_ID"
 		(shape input)
 		(at 166.37 106.68 0)
@@ -2283,6 +2507,28 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU_RX"
+		(shape input)
+		(at 166.37 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9b37db4e-9e1a-4bf4-9354-b610947dcfb2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 176.2 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -2363,6 +2609,28 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU_TX"
+		(shape input)
+		(at 166.37 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b87acfd3-9678-4d79-be80-6a714f2ad9c5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 175.8976 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3417,6 +3685,71 @@
 		)
 	)
 	(symbol
+		(lib_id "bkm-129x-scart-vga-rescue:GNDD-power")
+		(at 214.63 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d8d684f6-8629-42a8-a1e3-1bbc5b2b1974")
+		(property "Reference" "#PWR06"
+			(at 214.63 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 214.63 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 214.63 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 214.63 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cb64885c-8c45-4af8-b318-f581533cce71")
+		)
+		(instances
+			(project "bkm-129x-scart-vga"
+				(path "/dd381a99-a14a-480e-874b-b22abf62e9bf/00000000-0000-0000-0000-00005fb20956"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "bkm-129x-scart-vga-rescue:C")
 		(at 187.96 74.93 90)
 		(unit 1)
@@ -3548,6 +3881,79 @@
 			(project "bkm-129x-scart-vga"
 				(path "/dd381a99-a14a-480e-874b-b22abf62e9bf/00000000-0000-0000-0000-00005fb20956"
 					(reference "Y1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 219.71 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f804b020-826b-457d-aec3-a19839371879")
+		(property "Reference" "J4"
+			(at 222.25 113.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "UART"
+			(at 222.25 115.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 219.71 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 219.71 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 219.71 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "7ac5f7de-f24a-41f5-b873-c33ab1a9cac3")
+		)
+		(pin "2"
+			(uuid "3a0427a9-a383-4bec-b6cf-01a6ed82cde8")
+		)
+		(pin "1"
+			(uuid "2caf49bc-b293-429c-8d7a-3d8b09a4a7b8")
+		)
+		(instances
+			(project "bkm-129x-scart-vga"
+				(path "/dd381a99-a14a-480e-874b-b22abf62e9bf/00000000-0000-0000-0000-00005fb20956"
+					(reference "J4")
 					(unit 1)
 				)
 			)
