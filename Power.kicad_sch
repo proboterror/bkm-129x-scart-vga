@@ -846,10 +846,6 @@
 		)
 		(instances
 			(project "bkm-129x-scart-vga"
-				(path "/dd381a99-a14a-480e-874b-b22abf62e9bf"
-					(reference "#PWR0104")
-					(unit 1)
-				)
 				(path "/dd381a99-a14a-480e-874b-b22abf62e9bf/00000000-0000-0000-0000-0000628998a2"
 					(reference "#PWR0104")
 					(unit 1)
