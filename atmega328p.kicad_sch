@@ -9,6 +9,310 @@
 		(rev "B")
 	)
 	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:Crystal"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Y"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Crystal"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Two pin crystal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "quartz ceramic resonator oscillator"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Crystal*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Crystal_0_1"
+				(rectangle
+					(start -1.143 2.54)
+					(end 1.143 -2.54)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -1.905 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -1.27) (xy -1.905 1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -1.27) (xy 1.905 1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.905 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Crystal_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "bkm-129x-scart-vga-rescue:+5VD-power"
 			(power)
 			(pin_names
@@ -1148,206 +1452,6 @@
 				)
 			)
 		)
-		(symbol "bkm-129x-scart-vga-rescue:Crystal_GND2"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Y"
-				(at 0 5.715 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Crystal_GND2"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Crystal*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Crystal_GND2_0_1"
-				(rectangle
-					(start -1.143 2.54)
-					(end 1.143 -2.54)
-					(stroke
-						(width 0.3048)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -1.905 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 -1.27) (xy -1.905 1.27)
-					)
-					(stroke
-						(width 0.508)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -3.81) (xy 0 -3.556)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 1.27) (xy 1.905 -1.27)
-					)
-					(stroke
-						(width 0.508)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -2.286) (xy -2.54 -3.556) (xy 2.54 -3.556) (xy 2.54 -2.286)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Crystal_GND2_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "bkm-129x-scart-vga-rescue:GNDD-power"
 			(power)
 			(pin_names
@@ -1460,6 +1564,12 @@
 		(uuid "10eedb44-0800-4075-a165-4df211745620")
 	)
 	(junction
+		(at 184.15 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "35f0d1ff-8b31-4128-b8b2-b3cfd72b099c")
+	)
+	(junction
 		(at 127 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1476,6 +1586,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4f1e1536-2010-435f-9515-bb5217459a70")
+	)
+	(junction
+		(at 196.85 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "70adc335-9249-4e63-b9ec-839e21126e8d")
+	)
+	(junction
+		(at 184.15 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f10c489e-1500-451d-b6f8-ef0783e7694c")
 	)
 	(no_connect
 		(at 163.83 101.6)
@@ -1547,16 +1669,6 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 68.58) (xy 185.42 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00a0fe36-0beb-4e3e-b50e-4da23b361e6a")
-	)
-	(wire
-		(pts
 			(xy 172.72 67.31) (xy 186.69 67.31)
 		)
 		(stroke
@@ -1617,13 +1729,13 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 81.28) (xy 185.42 78.74)
+			(xy 191.77 74.93) (xy 196.85 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "265bb0ac-3f89-49cb-ab92-95069dcbe24c")
+		(uuid "267fb122-5c3d-4411-9b54-5ffbb5a91a03")
 	)
 	(wire
 		(pts
@@ -1657,16 +1769,6 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 76.2) (xy 179.07 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2fc3cbcc-bda9-49ba-b2ba-dceab34cdccc")
-	)
-	(wire
-		(pts
 			(xy 163.83 106.68) (xy 166.37 106.68)
 		)
 		(stroke
@@ -1674,6 +1776,16 @@
 			(type default)
 		)
 		(uuid "3cdfef72-e751-411d-bbb4-6dbe72083d5d")
+	)
+	(wire
+		(pts
+			(xy 196.85 85.09) (xy 196.85 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d2549d5-861f-4dff-bdb3-becc0d523b80")
 	)
 	(wire
 		(pts
@@ -1707,6 +1819,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 76.2) (xy 179.07 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46bfc64e-b689-46f2-b094-4c9c2b65b447")
+	)
+	(wire
+		(pts
 			(xy 95.25 66.04) (xy 97.79 66.04)
 		)
 		(stroke
@@ -1714,16 +1836,6 @@
 			(type default)
 		)
 		(uuid "495a8c0e-35ab-4e26-be61-8a028cef8bfd")
-	)
-	(wire
-		(pts
-			(xy 179.07 81.28) (xy 185.42 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c399f93-758b-4b14-adb8-644c41b0f952")
 	)
 	(wire
 		(pts
@@ -1754,26 +1866,6 @@
 			(type default)
 		)
 		(uuid "6425f5bc-6255-4b67-83e1-6812310a7930")
-	)
-	(wire
-		(pts
-			(xy 185.42 68.58) (xy 185.42 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65fb30de-f87a-44aa-9521-3ae8ec140342")
-	)
-	(wire
-		(pts
-			(xy 179.07 73.66) (xy 179.07 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e559164-45cc-401b-964e-11f71a540cb5")
 	)
 	(wire
 		(pts
@@ -1817,6 +1909,26 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 74.93) (xy 196.85 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "901d06d5-a15a-4330-83ad-67b6619f2393")
+	)
+	(wire
+		(pts
+			(xy 184.15 73.66) (xy 184.15 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "923f2f22-c6d7-447b-aca0-115051a13328")
+	)
+	(wire
+		(pts
 			(xy 171.45 63.5) (xy 171.45 62.23)
 		)
 		(stroke
@@ -1847,6 +1959,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 85.09) (xy 184.15 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a04ca6af-c738-4d07-8062-d3c7a57c59da")
+	)
+	(wire
+		(pts
 			(xy 212.09 88.9) (xy 213.36 88.9)
 		)
 		(stroke
@@ -1854,6 +1976,16 @@
 			(type default)
 		)
 		(uuid "b267801e-e8d1-4562-9d69-d71837655377")
+	)
+	(wire
+		(pts
+			(xy 179.07 85.09) (xy 184.15 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b313a905-d611-401e-ab9f-2e8b956e0ce8")
 	)
 	(wire
 		(pts
@@ -1997,6 +2129,26 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 74.93) (xy 184.15 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2f12ca4-9661-4516-a137-373ba1e559cf")
+	)
+	(wire
+		(pts
+			(xy 191.77 85.09) (xy 196.85 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6bdbbe5-81bf-4931-9be2-c2e6f2697df5")
+	)
+	(wire
+		(pts
 			(xy 226.06 86.36) (xy 227.33 86.36)
 		)
 		(stroke
@@ -2007,7 +2159,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 73.66) (xy 179.07 73.66)
+			(xy 163.83 73.66) (xy 184.15 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2457,79 +2609,8 @@
 		)
 	)
 	(symbol
-		(lib_id "bkm-129x-scart-vga-rescue:Crystal_GND2")
-		(at 185.42 74.93 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005f1f1898")
-		(property "Reference" "Y1"
-			(at 179.705 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CSTNE16M0VH3L000R0"
-			(at 181.61 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Crystal:Resonator_SMD_muRata_CSTxExxV-3Pin_3.0x1.1mm"
-			(at 185.42 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 185.42 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "691d2873-dd65-4389-9ad1-207544df2906")
-		)
-		(pin "3"
-			(uuid "b59f310b-e6a2-4d7a-8460-0e758d8a16ff")
-		)
-		(pin "1"
-			(uuid "98b0cd9e-8a8a-4c9d-86dc-d60332a66aa9")
-		)
-		(instances
-			(project "bkm-129x-scart-vga"
-				(path "/dd381a99-a14a-480e-874b-b22abf62e9bf/00000000-0000-0000-0000-00005fb20956"
-					(reference "Y1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "bkm-129x-scart-vga-rescue:GNDD-power")
-		(at 190.5 74.93 90)
+		(at 196.85 80.01 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2537,7 +2618,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f1f1a3c")
 		(property "Reference" "#PWR080"
-			(at 196.85 74.93 0)
+			(at 203.2 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2546,7 +2627,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 195.58 74.93 90)
+			(at 201.93 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2554,7 +2635,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 74.93 0)
+			(at 196.85 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2563,7 +2644,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 74.93 0)
+			(at 196.85 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2572,7 +2653,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 190.5 74.93 0)
+			(at 196.85 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3263,6 +3344,210 @@
 			(project "bkm-129x-scart-vga"
 				(path "/dd381a99-a14a-480e-874b-b22abf62e9bf/00000000-0000-0000-0000-00005fb20956"
 					(reference "#PWR086")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 187.96 85.09 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8a44c157-0a2c-4596-bec8-5bc88b51cd22")
+		(property "Reference" "C18"
+			(at 192.024 86.868 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22pF"
+			(at 192.024 89.408 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 191.77 84.1248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 187.96 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 187.96 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dab1e248-7b39-4599-8d4f-6289b758823f")
+		)
+		(pin "2"
+			(uuid "7e2e6c50-6d76-4bff-ab54-b38a4dde0200")
+		)
+		(instances
+			(project "bkm-129x-scart-vga"
+				(path "/dd381a99-a14a-480e-874b-b22abf62e9bf/00000000-0000-0000-0000-00005fb20956"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bkm-129x-scart-vga-rescue:C")
+		(at 187.96 74.93 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dc742ef4-977e-44ec-89be-a8d9d0bee1ea")
+		(property "Reference" "C14"
+			(at 192.024 70.612 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22pF"
+			(at 192.024 73.152 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 191.77 73.9648 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 187.96 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9e449acd-d711-4d43-a5d2-840ff67ce004")
+		)
+		(pin "2"
+			(uuid "93b4df2f-298e-4264-b792-e2d4a0098b6b")
+		)
+		(instances
+			(project "bkm-129x-scart-vga"
+				(path "/dd381a99-a14a-480e-874b-b22abf62e9bf/00000000-0000-0000-0000-00005fb20956"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Crystal")
+		(at 184.15 80.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e31f68ff-67b8-4a16-8fd4-051a29b392fb")
+		(property "Reference" "Y1"
+			(at 187.96 78.7399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "16MHz"
+			(at 187.96 81.2799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Crystal:Crystal_HC49-U_Vertical"
+			(at 184.15 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 184.15 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Two pin crystal"
+			(at 184.15 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fc05bca7-6919-43e5-ba19-7d2f49dd8d63")
+		)
+		(pin "1"
+			(uuid "5cfcf446-689a-4a4a-9711-b7257942a77e")
+		)
+		(instances
+			(project "bkm-129x-scart-vga"
+				(path "/dd381a99-a14a-480e-874b-b22abf62e9bf/00000000-0000-0000-0000-00005fb20956"
+					(reference "Y1")
 					(unit 1)
 				)
 			)
