@@ -18170,7 +18170,7 @@
 		(layer "Edge.Cuts")
 		(uuid "cad2c3b7-46d2-437a-a4dc-caf85cdf8bcb")
 	)
-	(gr_text "(2020) Martin Hejnfelt (martin@hejnfelt.com)\nwww.immerhax.com"
+	(gr_text "(2020) Martin Hejnfelt (martin@hejnfelt.com)\nwww.immerhax.com\n\nMod github.com/proboterror/bkm-129x-scart-vga"
 		(at 115.7478 50.3936 0)
 		(layer "B.SilkS")
 		(uuid "13c3b7b9-6224-4e79-a427-164244d1bed8")
