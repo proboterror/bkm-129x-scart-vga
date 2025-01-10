@@ -2141,14 +2141,11 @@
 				)
 			)
 		)
-		(property ki_fp_filters "Connector*:*2x??x*mm* Connector*:*2x???Pitch*")
 		(path "/00000000-0000-0000-0000-00005e34910e")
-		(sheetname "Root")
-		(sheetfile "bkm-129x-scart-vga.kicad_sch")
 		(attr through_hole)
 		(fp_line
-			(start 3.048 -44.45)
-			(end 3.048 44.45)
+			(start 3.05 -40.45)
+			(end 3.05 40.45)
 			(stroke
 				(width 0.5)
 				(type solid)
@@ -2157,7 +2154,7 @@
 			(uuid "1a8d01cf-de4d-40f6-9110-a9acba174d9f")
 		)
 		(fp_line
-			(start 3.048 44.45)
+			(start 7.85 44.45)
 			(end 12.192 44.45)
 			(stroke
 				(width 0.5)
@@ -2188,7 +2185,7 @@
 		)
 		(fp_line
 			(start 12.192 -44.45)
-			(end 3.048 -44.45)
+			(end 7.9 -44.45)
 			(stroke
 				(width 0.5)
 				(type solid)
@@ -2215,6 +2212,22 @@
 			)
 			(layer "F.SilkS")
 			(uuid "49508560-f88e-4278-b8ab-e17c2c13db57")
+		)
+		(pad "" np_thru_hole circle
+			(at 3.8 -44.45)
+			(size 2.85 2.85)
+			(drill 2.85)
+			(layers "F&B.Cu" "*.Mask")
+			(clearance 2)
+			(uuid "c7ea0fc0-ef60-49ad-a4ca-91602cd2598a")
+		)
+		(pad "" np_thru_hole circle
+			(at 3.8 44.45)
+			(size 2.85 2.85)
+			(drill 2.85)
+			(layers "F&B.Cu" "*.Mask")
+			(clearance 2)
+			(uuid "0f367d2f-5e86-483f-869d-316f02df2eeb")
 		)
 		(pad "1a" thru_hole circle
 			(at 1.27 -39.37)
@@ -17106,7 +17119,7 @@
 		(descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x03 2.54mm single row")
 		(property "Reference" "J4"
-			(at 0 7.64 270)
+			(at 0 7.64 -90)
 			(layer "F.SilkS")
 			(uuid "77e00d8f-8844-49ba-bd43-1d450dc0e734")
 			(effects
@@ -17117,7 +17130,7 @@
 			)
 		)
 		(property "Value" "UART"
-			(at 0 7.41 270)
+			(at 0 7.41 -90)
 			(layer "F.Fab")
 			(uuid "17a89dca-cc20-4819-99e5-63846ef55100")
 			(effects
@@ -17319,7 +17332,7 @@
 			(uuid "24b70e05-e435-4420-aa4b-0e4afad99579")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 2.54 360)
+			(at 0 2.54 0)
 			(layer "F.Fab")
 			(uuid "381b83a5-27e9-42a5-89e1-4a736dd1f6f9")
 			(effects
